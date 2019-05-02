@@ -1,9 +1,5 @@
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 
 package chat.server;
 
@@ -13,7 +9,7 @@ import java.net.Socket;
 
 /**
  *
- * @author danny
+ * @author saul
  */
 public class ChatServer  {
     
@@ -25,7 +21,7 @@ public class ChatServer  {
         int numeroPuerto = Integer.parseInt(args[0]);
         try{
             ServerSocket serverSocket = new ServerSocket(numeroPuerto);
-            System.out.println("Escuchando...");
+            System.out.println("Escuchando...Listo");
             while(true){
                 Socket cliente = serverSocket.accept();
                 System.out.println("Conexión aceptada: " + cliente.getRemoteSocketAddress());
