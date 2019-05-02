@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 
 package chat;
 
@@ -13,7 +9,7 @@ import java.net.Socket;
 
 /**
  *
- * @author danny
+ * @author saul
  */
 public class Protocol {
     public static final short REGISTER_MESSAGE = 0;
